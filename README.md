@@ -39,7 +39,7 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Available Scripts
+## Steps to get Final Code
 1. I will trace all the routes start with index.js file, because index.js file will be the entry point of the react project.
 2. Then I will trace the link in the tab where i found the page that I need to show in my project (....../yum-r/admin/orders/9F36CA).
 3. From there I will find out my project page that reside in folder of admin>orders/[orderId]. So I extract this folder from given project code.
