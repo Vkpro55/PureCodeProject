@@ -40,11 +40,13 @@ Instead, it will copy all the configuration files and the transitive dependencie
 You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
 ## Steps to get Final Code
-1. I will trace all the routes start with index.js file, because index.js file will be the entry point of the react project.
-2. Then I will trace the link in the tab where i found the page that I need to show in my project (....../yum-r/admin/orders/9F36CA).
-3. From there I will find out my project page that reside in folder of admin>orders/[orderId]. So I extract this folder from given project code.
-4. Now, all is good but I have to updates the import statements and folder structure. So according to my project structure I will redefined it.
-5. Remove the un-necessary code and files that are not been used.
+### streamline the process of identifying and restructuring the React project, follow these steps:
+1. Begin with the index.js file, as it serves as the entry point for the React project.
+2. Navigate to the page or component linked in the browser tab, such as ....../yum-r/admin/orders/9F36CA.
+3. Identify the corresponding page or component within the project's structure, residing in the folder path admin > orders > [orderId].
+4. Extract this folder from the project code.
+5. Proceed with updating import statements and folder structure based on the project's layout.
+6. Remove any redundant or unused code and files to declutter the project.
 
 ## Reasoning for inability to strictly stick to the provided folder structure
 1. Organizing files from the same folder can become cumbersome when importing them into a project. To mitigate potential errors, I've opted for a nested loop approach within the folder. This not only streamlines the process but also helps in maintaining clarity and organization.
