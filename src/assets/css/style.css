@@ -1,0 +1,11 @@
+@import "custom/_simplebar.css";
+@import "custom/_scrollbar.css";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    font-size: 15px;
+    -webkit-tap-highlight-color: transparent;
+    @apply font-poppins overflow-x-hidden antialiased text-base bg-white text-default-800 dark:bg-default-50;
+  }
