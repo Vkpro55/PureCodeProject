@@ -46,6 +46,18 @@ You don't have to ever use `eject`. The curated feature set is suitable for smal
 4. Now, all is good but I have to updates the import statements and folder structure. So according to my project structure I will redefined it.
 5. Remove the un-necessary code and files that are not been used.
 
+## Reasoning for inability to strictly stick to the provided folder structure
+1. It is because of the importing of multiple files from same folder is bit hactic. That's why in one folder I have to create nested loop to avoid any kind of errors in the file.
+2. I will do it componets-> layout folder. The reason is simple it will give error and bit hactic to put each and every files in one place.
+
+## Reasoning for inability to get rid of all the redundant code in the given timeframe
+To effectively manage the import statements and streamline code extraction from a given project, I employ a strategy that involves preserving redundant data, files, and code temporarily. This ensures clarity in the output and facilitates the identification of essential components for further action.
+
+### For better version:
+
+"In order to manage import statements effectively and streamline the extraction of code from a given project, I adopt a method that involves temporarily retaining redundant data, files, and code. This approach ensures clarity in the output and facilitates the identification of essential components for subsequent actions. By maintaining this redundancy, I can confidently assess which code and files need to be removed to achieve the desired outcome within the given timeframe."
+
+
 ## Learn More
 
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
