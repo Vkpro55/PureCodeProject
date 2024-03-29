@@ -47,9 +47,9 @@ You don't have to ever use `eject`. The curated feature set is suitable for smal
 5. Remove the un-necessary code and files that are not been used.
 
 ## Reasoning for inability to strictly stick to the provided folder structure
-1. It is because of the importing of multiple files from same folder is bit hactic. That's why in one folder I have to create nested loop to avoid any kind of errors in the file.
-2. I will do it componets-> layout folder. The reason is simple it will give error and bit hactic to put each and every files in one place.
-
+1. Organizing files from the same folder can become cumbersome when importing them into a project. To mitigate potential errors, I've opted for a nested loop approach within the folder. This not only streamlines the process but also helps in maintaining clarity and organization.
+2. My plan is to arrange the files into a "components" subfolder within the "layout" folder. This decision stems from the necessity to avoid errors and simplify the management of numerous files. By grouping them logically, it ensures a smoother workflow and reduces the likelihood of confusion or oversight.
+   
 ## Reasoning for inability to get rid of all the redundant code in the given timeframe
 To effectively manage the import statements and streamline code extraction from a given project, I employ a strategy that involves preserving redundant data, files, and code temporarily. This ensures clarity in the output and facilitates the identification of essential components for further action.
 
