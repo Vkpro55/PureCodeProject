@@ -1,4 +1,4 @@
-# Live Link :-  https://pure-code-project.vercel.app/
+# Deployed Link :-  https://pure-code-project.vercel.app/
 
 # Getting Started with Create React App
 
